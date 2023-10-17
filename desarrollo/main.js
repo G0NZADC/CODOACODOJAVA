@@ -5,7 +5,7 @@ document.querySelectorAll('.btn').forEach(buttonElement => {
   })
 
   function calculateTotalPrice() {
-    const regularTicketPrice = 2000;
+    const regularTicketPrice = 200;
     const studentTicketPrice = regularTicketPrice * 0.2; 
     const trainerTicketPrice = regularTicketPrice * 0.5;
     const juniorTicketPrice = regularTicketPrice * 0.8; 
