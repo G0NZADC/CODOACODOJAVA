@@ -1,4 +1,6 @@
+
 const bsButton = new bootstrap.Button('#myButton')
+
 document.querySelectorAll('.btn').forEach(buttonElement => {
     const button = bootstrap.Button.getOrCreateInstance(buttonElement)
     button.toggle()
@@ -25,7 +27,7 @@ document.querySelectorAll('.btn').forEach(buttonElement => {
     document.getElementById("aPagar").style.display = "none";
   }
 
-  document.getElementById("miBoton").addEventListener("click", function() {
-    document.getElementById("aPagar").style.display = "block";
-  });
+  document.getElementById("miBoton").addEventListener("click",function() {
+      document.getElementById("aPagar").style.display = "block";
+     });
   

@@ -55,104 +55,15 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Compra tickets</a>
+              <a class="nav-link text-success" href="./tickets.html">Compra tickets</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-    <!--modal ticket.-->
-    <section>
-      <div class="modal col-6" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            
-          <div class="modal-content">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
-            <div class="row row-cols-3 row-cols-md-3g-3 pt-5">
-              <div class="col text-center mb-3">
-                <div class="card border-primary rounded-0 border-2">
-                  <div class="card-body ">
-                    <h5 class="card-title">Estudiante</h5>
-                    <p class="card-text">Tiene un descuento</p>
-                    <h5 class="card-title">80%</h5>
-                    <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col text-center mb-3">
-                <div class="card border-success rounded-0 border-2">
-                  <div class="card-body">
-                    <h5 class="card-title">Trainee</h5>
-                    <p class="card-text">Tiene un descuento</p>
-                    <h5 class="card-title">50%</h5>
-                    <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col text-center mb-3">
-                <div class="card border-warning rounded-0 border-2">
-                  <div class="card-body content">
-                    <h5 class="card-title">Junior</h5>
-                    <p class="card-text">Tiene un descuento</p>
-                    <h5 class="card-title">20%</h5>
-                    <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="text-center">
-              <p class="fs-6 ">VENTA</p>
-              <h2 class="modal-title fs-4" id="exampleModalLabel">VALOR DE TICKET $200</h2> 
-            </div>
-
-            <div class="modal-body">
-              <form class="row g-2" id="formluario">
-                <div class="col-md">
-                  <label for="name" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" name="name" id="name" value="" required>
-                </div>
-                <div class="col-md">
-                  <label for="apellido" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" name="apellido" id="apellido" value="" required>
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Correo Electrónico</label>
-                  <div class="input-group">
-                    <input type="email" class="form-control" name="email" id="email"  aria-describedby="inputGroupPrepend2" required>
-                  </div>
-                </div>
-                <div class="col-md-4 offset-md-4 ">
-                  <label for="regular-ticket">Sin descuento</label>
-                  <input type="number" class="form-control" id="regular-ticket" min="0" value="0">
-                                
-                  <label for="student-ticket">Estudiante:</label>
-                  <input type="number" class="form-control" id="student-ticket" min="0" value="0">
-                </div>
-                <div class="col-md-4 offset-md-4 ">
-                  <label for="trainer-ticket">Trainee</label>
-                  <input type="number" class="form-control" id="trainer-ticket" min="0" value="0">
-                
-                  <label for="junior-ticket">Junior</label>
-                  <input type="number" class="form-control" id="junior-ticket" min="0" value="0">
-                </div>
-                
-                <div class="alert alert-success" role="alert" id="aPagar">
-                  Total a Pagar : $ <span id="total-price"></span>
-                </div>
-
-                <div class=" modal-footer row g-2 ">
-                  <button class="btn btn-danger col-md" type="button" onclick="borrarFormulario()">Borrar</button>
-                  <button class="btn btn-success col-md" type="button" id="miBoton"  onclick="calculateTotalPrice()">Total a Pagar</button>
-                </div>
-              </form>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </section>
+   
+   
 
   <main>
     
@@ -167,7 +78,7 @@
                   estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p>
                 <div class="d-flex justify-content-end column-gap-3">
                     <a role="button" class="btn btn-outline-light" href="#conv-orador">Quiero ser orador</a>
-                    <a role="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar Tickets</a>
+                    <a role="button" class="btn btn-success" href="./tickets.html">Comprar Tickets</a>
                 </div>
             </div>
 
@@ -296,7 +207,7 @@
 
      <!-- pie de página -->
 
-   <footer class="py-2 my-1 fondo">
+   <footer class="py-2 my-1 fondo ">
         <ul class="nav justify-content-center pb-3 mb-01">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Preguntas frecuentes</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contáctanos</a></li>

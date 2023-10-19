@@ -39,10 +39,11 @@ body {
     margin: 0 !important;
     background-color: #2a4d57;
     padding-top: 10px;
+    bottom: 0px !important;
 
   }
  
   #aPagar{
-    display: none;
+    display: block;
   }
 
